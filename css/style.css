@@ -75,3 +75,37 @@ nav ul li img{
   font-weight: bold;
   padding-top: 22px;
 }
+/* JUMBOTRON */
+
+
+/* MAIN */
+.plan .mensile-annuale{
+  height: 80px;
+}
+.plan h2:first-of-type{
+  padding-bottom: 5%;
+}
+.plan .mensile-annuale .circle{
+  display: inline-block;
+  height: 100%;
+  font-size: 50px;
+  vertical-align: middle;
+  color: #0061ff;
+  
+}
+.plan .mensile-annuale .text{
+  line-height: 80px;
+}
+.plan .mensile-annuale span:nth-of-type(3){
+  padding-left: 20px;
+  color: grey;
+}
+.plan .float-left.middle{
+  margin: 0 8%;
+}
+.plan .type{
+  text-align: center;
+  line-height: 50px;
+  border-bottom: 1px solid grey;
+}
+/* MAIN */
