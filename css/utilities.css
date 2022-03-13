@@ -5,7 +5,10 @@
 }
 
 .container-jumbo-foot{
-  max-width: 1400px;
+  position: relative;
+  width: 90%;
+  max-width: 1500px;
+  min-height: 830px;
   margin: 0 auto;
 }
 
@@ -13,6 +16,13 @@ clearfix::after{
   content: '';
   display: table;
   clear: both;
+}
+
+.login{
+  background-color: #0061ff;
+  color: white;
+  font-size: 15px;
+  padding: 7px 20px;
 }
 
 .float-left{
@@ -32,6 +42,9 @@ clearfix::after{
 .w50{
   width: 50%;
 }
+.w70{
+  width: 70%;
+}
 .w100{
   width: 100%;
 }
@@ -42,6 +55,9 @@ clearfix::after{
     border: 1px solid black;
 }
 
+.h80{
+  min-height: 80px;
+}
 .h100{
   min-height: 100px;
 }
@@ -65,6 +81,9 @@ clearfix::after{
 }
 .h800{
   min-height: 800px;
+}
+.h900{
+  min-height: 900px;
 }
 .h1000{
   min-height: 1000px;

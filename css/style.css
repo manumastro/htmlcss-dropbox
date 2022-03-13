@@ -1,13 +1,77 @@
-
+/* HEADER */
+header{
+  background-color: white;
+  z-index: 999;
+}
 .head-fixed{
   position: fixed;
+  min-width: 600px;
+  max-height: 80px;
 }
 
 .jumbotron{
-  padding-top: 100px;
+  padding-top: 80px;
+  margin-bottom: 10%;
 }
 
 #foot{
   margin-left: 10%;
 }
 
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+}
+
+nav ul li a{
+  font-size: 18px;
+  color: black;
+  margin-right: 43px;
+}
+
+nav ul li img{
+  vertical-align: middle;
+  padding-bottom: 6px;
+  margin-left: 20px;
+}
+/* HEADER */
+
+/* JUMBOTRON */
+.jumbotron{
+  background-color: #b4d0e7;
+}
+
+.jumbo-img{
+  position: absolute;
+  min-width: 921px;
+  min-height: 532px;
+  right: 4%;
+  bottom: -11%;
+  background-image: url("../img/jumbo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.jumbotron .container-jumbo-foot h1{
+  padding-top: 8%;
+  font-weight: bold;
+}
+
+.jumbotron .container-jumbo-foot p{
+  font-size: 18px;
+  width: 30%;
+  padding-top: 45px;
+  margin-bottom: 50px;
+}
+
+.jumbotron .container-jumbo-foot a{
+  font-size: 18px;
+  padding: 12px 20px;
+}
+
+.jumbotron .container-jumbo-foot p:last-of-type{
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 22px;
+}
