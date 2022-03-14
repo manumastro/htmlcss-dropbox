@@ -5,8 +5,7 @@ header{
 }
 .head-fixed{
   position: fixed;
-  min-width: 600px;
-  max-height: 80px;
+  height: 80px;
 }
 
 .jumbotron{
@@ -42,26 +41,23 @@ nav ul li img{
 }
 
 .jumbo-img{
-  position: absolute;
-  min-width: 921px;
-  min-height: 532px;
-  right: 4%;
-  bottom: -11%;
-  background-image: url("../img/jumbo.png");
+  height: 567px;
+  background-image: url(../img/jumbo.png);
   background-size: contain;
   background-repeat: no-repeat;
+  background-size: 950px;
+  margin-left: 2%;
 }
 
 
 .jumbotron .container-jumbo-foot h1{
-  padding-top: 8%;
+  margin-top: 90px;
   font-weight: bold;
 }
 
 .jumbotron .container-jumbo-foot p{
-  font-size: 18px;
-  width: 30%;
-  padding-top: 45px;
+  font-size: 17px;
+  width: 95%;
   margin-bottom: 50px;
 }
 
@@ -75,37 +71,99 @@ nav ul li img{
   font-weight: bold;
   padding-top: 22px;
 }
+
+.jumbotron .container-jumbo-foot .clearfix{
+  height: 465px;
+  margin-top: 45px;
+}
 /* JUMBOTRON */
 
 
 /* MAIN */
+/* PRIMA SECTION */
+.cards{
+  height: 1080px;
+}
+.plan{
+  padding-bottom: 1.5rem;
+}
 .plan .mensile-annuale{
-  height: 80px;
+  height: 98px;
 }
 .plan h2:first-of-type{
-  padding-bottom: 5%;
+  padding-bottom: 30px;
 }
 .plan .mensile-annuale .circle{
   display: inline-block;
-  height: 100%;
+  height: 80px;
   font-size: 50px;
   vertical-align: middle;
   color: #0061ff;
   
 }
-.plan .mensile-annuale .text{
-  line-height: 80px;
-}
+
 .plan .mensile-annuale span:nth-of-type(3){
   padding-left: 20px;
   color: grey;
 }
+
 .plan .float-left.middle{
-  margin: 0 8%;
+  margin: auto 6% auto;
 }
-.plan .type{
+
+.plan .prof-stand-adv{
+  padding: 30px 26px;
+}
+
+.plan span.details{
+  padding-left: 20px;
+}
+.plan li.prova{
   text-align: center;
-  line-height: 50px;
-  border-bottom: 1px solid grey;
+  padding: 10px 0;
 }
+.plan span.acq-ora{
+  color: #0061ff;
+  text-decoration: underline;
+}
+.plan span.bottom-border{
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgb(189, 182, 182);
+}
+.plan .punti-salienti{
+  padding: 52px 26px;
+}
+.plan .punti-salienti li{
+  padding-bottom: 28px;
+}
+
+.plan .punti-salienti li{
+  font-size: 16px;
+}
+.plan .punti-salienti li:first-of-type{
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.plan .punti-salienti .fa-solid.fa-check{
+  color: #0061ff;
+  font-weight: bold;
+  font-size: 16px;
+}
+/* PRIMA SECTION */
+
+/* SECONDA SECTION */
+.ufficio-vendite .internal-padding{
+  padding: 36px 0 36px 36px;
+  line-height: 32px;
+}
+.ufficio-vendite .float-right{
+  text-align: center;
+  font-size: 10px;
+  padding: 36px 36px 36px 0;
+}
+
+.ufficio-vendite .float-right .login{
+  padding: 5px;
+}
+/* SECONDA SECTION */
 /* MAIN */

@@ -20,5 +20,20 @@ h2{
   font-size: 2.5rem;
 }
 
-span{
+li{
+  list-style: none;
+}
+
+.singolo-team{
+  text-align: center;
+  line-height: 50px;
+  border-bottom: 1px solid grey;
+}
+.pro{
+  font-size: 28px;
+  font-weight: bold;
+}
+.price{
+  font-weight: bold;
+  font-size: 17px;
 }

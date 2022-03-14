@@ -5,10 +5,9 @@
 }
 
 .container-jumbo-foot{
-  position: relative;
   width: 90%;
   max-width: 1500px;
-  min-height: 830px;
+  min-width: 600px;
   margin: 0 auto;
 }
 
@@ -17,7 +16,39 @@ clearfix::after{
   display: table;
   clear: both;
 }
-
+.grey-border{
+  border: 1px solid grey;
+}
+.black{
+  color: black;
+}
+.grey{
+  color: grey;
+}
+.white{
+  color: white;
+}
+.mb12{
+  margin-bottom: 12px;
+}
+.mb18{
+  margin-bottom: 18px;
+}
+.mb25{
+  margin-bottom: 25px;
+}
+.mb30{
+  margin-bottom: 30px;
+}
+.mb35{
+  margin-bottom: 35px;
+}
+.mb40{
+  margin-bottom: 40px;
+}
+.mb50{
+  margin-bottom: 50px;
+}
 .login{
   background-color: #0061ff;
   color: white;
@@ -36,14 +67,38 @@ clearfix::after{
 .w5{
   width: calc(100% / 5);
 }
+.w25{
+  width: 25%;
+}
+.w28{
+  width: 30%;
+}
+.w30{
+  width: 30%;
+}
 .w33{
-  width: 28%;
+  width: 29%;
+}
+.w35{
+  width: 35%;
+}
+.w40{
+  width: 40%;
 }
 .w50{
   width: 50%;
 }
+.w60{
+  width: 60%;
+}
+.w68{
+  width: 68%;
+}
 .w70{
   width: 70%;
+}
+.w75{
+  width: 75%;
 }
 .w100{
   width: 100%;
@@ -98,5 +153,5 @@ clearfix::after{
 }
 
 section{
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
 }
