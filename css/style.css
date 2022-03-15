@@ -1,6 +1,7 @@
 /* HEADER */
 header{
   background-color: white;
+  width: 100vw;
   z-index: 999;
 }
 .head-fixed{
@@ -41,11 +42,10 @@ nav ul li img{
 }
 
 .jumbo-img{
-  position: absolute;
   background-image: url(../img/jumbo.png);
   background-size: contain;
   background-repeat: no-repeat;
-  right: -5%;
+  width: 65%;
 }
 
 
@@ -55,7 +55,7 @@ nav ul li img{
 }
 
 .jumbotron .container-jumbo-foot p{
-  font-size: 19px;
+  font-size: 18px;
   margin-bottom: 50px;
 }
 
@@ -78,8 +78,8 @@ nav ul li img{
 
 
 /* MAIN */
-/* PRIMA SECTION */
 
+/* PRIMA SECTION */
 .plan{
   padding-bottom: 1.5rem;
 }
@@ -191,6 +191,7 @@ nav ul li img{
 }
 /* TERZA SECTION */
 
+/* QUARTA SECTION */
 section.operazioni .operazioni-img img{
   width: 100%;
 }
@@ -203,7 +204,9 @@ section.operazioni .float-left:nth-of-type(1), section.operazioni .float-left:nt
 {
   margin-bottom: 10%;
 } 
-/* TERZA SECTION */
+/* QUARTA SECTION */
+
+/* QUINTA SECTION */
 .sponsor h2.pro{
   font-size: 45px;
 }
@@ -211,5 +214,31 @@ section.operazioni .float-left:nth-of-type(1), section.operazioni .float-left:nt
   color: #0061ff;
   font-size: 1.1rem;
   text-decoration: underline;
+}
+
+.sponsor .laterale{
+  width: 30vw;
+}
+
+.sponsor .laterale .float-left.sponsored{
+  width: calc(30vw / 2);
+  height: calc(30vw / 2);
+}
+
+.sponsor .laterale .float-left.sponsored img{
+  width: calc((30vw / 2) / 2);
+  height: 100%;
+}
+
+.sponsor .centrale{
+  width: calc(100% - 60vw);
+}
+
+.sponsor .centrale .float-left.sponsor-descr{
+  overflow: auto;
+  height: calc(30vw);
+}
+.sponsor .centrale .float-left.sponsor-descr img{
+  width: calc((30vw / 2) / 2);
 }
 /* MAIN */
