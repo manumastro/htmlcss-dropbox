@@ -49,6 +49,9 @@ clearfix::after{
 .mb50{
   margin-bottom: 50px;
 }
+.mb60{
+  margin-bottom: 60px;
+}
 .mb75{
   margin-bottom: 75px;
 }
@@ -84,6 +87,9 @@ clearfix::after{
 }
 .w33{
   width: 32%;
+}
+.w33true{
+  width: calc(100% / 3);
 }
 .w35{
   width: 35%;
@@ -157,7 +163,12 @@ clearfix::after{
 .h1300{
   min-height: 1300px;
 }
-
+.h1500{
+  min-height: 1500px;
+}
+.h100pc{
+  min-height: 100%;
+}
 section{
   /* border-bottom: 1px solid black; */
 }

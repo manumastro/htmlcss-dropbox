@@ -36,3 +36,7 @@ li{
   font-weight: bold;
   font-size: 17px;
 }
+
+.float-left.middle{
+  margin: auto 2% auto;
+}
