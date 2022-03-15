@@ -14,10 +14,6 @@ header{
   margin-bottom: 10%;
 }
 
-#foot{
-  margin-left: 10%;
-}
-
 nav ul li{
   display: inline-block;
   line-height: 80px;
@@ -70,7 +66,7 @@ nav ul li img{
   padding-top: 22px;
 }
 
-.jumbotron .container-jumbo-foot .clearfix{
+.jumbotron .container-jumbo-foot div:first-of-type{
   position: relative;
   bottom: -80px;
 }
@@ -207,6 +203,11 @@ section.operazioni .float-left:nth-of-type(1), section.operazioni .float-left:nt
 /* QUARTA SECTION */
 
 /* QUINTA SECTION */
+.sponsor{
+  height: 100vh;
+}
+
+
 .sponsor h2.pro{
   font-size: 45px;
 }
@@ -277,6 +278,45 @@ section.operazioni .float-left:nth-of-type(1), section.operazioni .float-left:nt
 .sponsor .centrale .float-left.sponsor-descr p{
   font-size: 1.1rem;
 }
+.sponsor .free-trial{
+  background-color: #b4d0e7;
+}
+.sponsor .free-trial .container{
+  height: 100%;
+}
+.sponsor .free-trial .container .float-left, .sponsor .free-trial .container .float-right{
+  height: 100%;
+}
+/* QUINTA SECTION */
 
+/* SESTA SECTION */
+.domande .container{
+  position: relative;
+}
+.domande .domande-frequenti{
+  line-height: 100px;
+}
+.domande .domande-text {
+  line-height: 100px;
+}
+.domande a{
+  color: black;
+}
+.domande span{
+  font-weight: bold;
+  font-size: 2rem;
+}
+.domande .domande-frequenti p{
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-bottom: 1px solid #d6d6d8;
+  border-top: 1px solid #d6d6d8;
+}
 
+.domande .domande-frequenti .fa-chevron-down{
+  position: absolute;
+  right: 0;
+  line-height: 100px;
+}
+/* SESTA SECTION */
 /* MAIN */

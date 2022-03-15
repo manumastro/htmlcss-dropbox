@@ -130,6 +130,9 @@ clearfix::after{
 .h100{
   min-height: 100px;
 }
+.h150{
+  min-height: 150px;
+}
 .h200{
   min-height: 200px;
 }
