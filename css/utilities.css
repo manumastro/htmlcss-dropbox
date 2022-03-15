@@ -49,6 +49,12 @@ clearfix::after{
 .mb50{
   margin-bottom: 50px;
 }
+.mb75{
+  margin-bottom: 75px;
+}
+.mb100{
+  margin-bottom: 100px;
+}
 .login{
   background-color: #0061ff;
   color: white;
@@ -77,7 +83,7 @@ clearfix::after{
   width: 30%;
 }
 .w33{
-  width: 29%;
+  width: 32%;
 }
 .w35{
   width: 35%;

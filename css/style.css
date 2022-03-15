@@ -81,9 +81,7 @@ nav ul li img{
 
 /* MAIN */
 /* PRIMA SECTION */
-.cards{
-  height: 1080px;
-}
+
 .plan{
   padding-bottom: 1.5rem;
 }
@@ -108,7 +106,7 @@ nav ul li img{
 }
 
 .plan .float-left.middle{
-  margin: auto 6% auto;
+  margin: auto 2% auto;
 }
 
 .plan .prof-stand-adv{
@@ -133,6 +131,9 @@ nav ul li img{
 .plan .punti-salienti{
   padding: 52px 26px;
 }
+.plan .first .punti-salienti{
+  padding: 52px 26px 101px 26px;
+}
 .plan .punti-salienti li{
   padding-bottom: 28px;
 }
@@ -152,6 +153,9 @@ nav ul li img{
 /* PRIMA SECTION */
 
 /* SECONDA SECTION */
+.ufficio-vendite{
+  margin-bottom: 7%;
+}
 .ufficio-vendite .internal-padding{
   padding: 36px 0 36px 36px;
   line-height: 32px;
@@ -166,4 +170,30 @@ nav ul li img{
   padding: 5px;
 }
 /* SECONDA SECTION */
+
+/* TERZA SECTION */
+.partner{
+  margin-bottom: 7%;
+}
+.partner .partner-img{
+  height: 500px;
+  background-image: url('../img/partner.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.partner .partner-text{
+  padding: 50px 50px;
+}
+.partner .partner-text p:nth-of-type(2){
+  line-height: 35px;
+  font-size: 18px;
+}
+.partner .partner-text a.login{
+  font-size: 19px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+/* TERZA SECTION */
 /* MAIN */
