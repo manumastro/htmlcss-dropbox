@@ -208,7 +208,10 @@ section.operazioni .float-left:nth-of-type(1), section.operazioni .float-left:nt
 .sponsor h2.pro{
   font-size: 45px;
 }
-.sponsor a{
+.sponsor .business{
+  padding-bottom: 3%;
+}
+.sponsor .business a{
   color: #0061ff;
   font-size: 1.1rem;
   text-decoration: underline;
@@ -305,9 +308,10 @@ section.operazioni .float-left:nth-of-type(1), section.operazioni .float-left:nt
 /* QUINTA SECTION */
 
 /* SESTA SECTION */
-.domande .container{
-  position: relative;
+.domande{
+  margin-bottom: 5%;
 }
+
 .domande .domande-frequenti{
   line-height: 100px;
 }
@@ -358,9 +362,11 @@ footer hr{
   width: 125px;
 }
 footer .foot-inf{
-  color: grey;
   font-size: 0.8rem;
   padding-top: 40px;
+}
+footer .foot-inf a{
+  color: grey;
 }
 /* FOOTER */
 /* MAIN */
