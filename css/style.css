@@ -1,17 +1,11 @@
 /* HEADER */
 header{
   background-color: white;
-  width: 100vw;
   z-index: 999;
 }
 .head-fixed{
   position: fixed;
   height: 80px;
-}
-
-.jumbotron{
-  padding-top: 80px;
-  margin-bottom: 10%;
 }
 
 nav ul li{
@@ -34,7 +28,10 @@ nav ul li img{
 
 /* JUMBOTRON */
 .jumbotron{
+  padding-top: 80px;
+  height: calc(100vh - 75px);
   background-color: #b4d0e7;
+  margin-bottom: 10%;
 }
 
 .jumbo-img{
@@ -44,10 +41,10 @@ nav ul li img{
   width: 65%;
 }
 
-
 .jumbotron .container-jumbo-foot h1{
   margin-top: 90px;
   font-weight: bold;
+  margin-bottom: 51px;
 }
 
 .jumbotron .container-jumbo-foot p{
@@ -66,10 +63,7 @@ nav ul li img{
   padding-top: 22px;
 }
 
-.jumbotron .container-jumbo-foot div:first-of-type{
-  position: relative;
-  bottom: -80px;
-}
+
 /* JUMBOTRON */
 
 
@@ -78,6 +72,7 @@ nav ul li img{
 /* PRIMA SECTION */
 .plan{
   padding-bottom: 1.5rem;
+  min-height: 1400px;
 }
 .plan .mensile-annuale{
   height: 98px;
@@ -114,9 +109,10 @@ nav ul li img{
   color: #0061ff;
   text-decoration: underline;
 }
-.plan span.bottom-border{
-  padding-bottom: 40px;
-  border-bottom: 1px solid rgb(189, 182, 182);
+.plan hr{
+  width: 60px;
+  margin-left: 25px;
+  border-color: rgba(black, rgb(0, 0, 0), black, 0.2);
 }
 .plan .punti-salienti{
   padding: 52px 26px;
@@ -204,7 +200,8 @@ section.operazioni .float-left:nth-of-type(1), section.operazioni .float-left:nt
 
 /* QUINTA SECTION */
 .sponsor{
-  height: 100vh;
+  height: 110vh;
+  margin-bottom: 9%;
 }
 
 
@@ -279,14 +276,32 @@ section.operazioni .float-left:nth-of-type(1), section.operazioni .float-left:nt
   font-size: 1.1rem;
 }
 .sponsor .free-trial{
+  color: #61082c;
+  min-height: 350px;
   background-color: #b4d0e7;
 }
-.sponsor .free-trial .container{
-  height: 100%;
+
+.sponsor .free-trial h2{
+  font-size: 50px;
 }
+
+.sponsor .free-trial .float-right{
+  padding-left: 25%;
+}
+
+.sponsor .free-trial .float-right .login{
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  padding: 12px;
+  background-color: white;
+}
+
 .sponsor .free-trial .container .float-left, .sponsor .free-trial .container .float-right{
-  height: 100%;
+  padding-top: 7%;
 }
+
+
 /* QUINTA SECTION */
 
 /* SESTA SECTION */
@@ -319,4 +334,33 @@ section.operazioni .float-left:nth-of-type(1), section.operazioni .float-left:nt
   line-height: 100px;
 }
 /* SESTA SECTION */
+
+/* FOOTER */
+footer{
+  background-color: black;
+}
+footer ul li{
+  padding-bottom: 5px;
+  line-height: 25px;
+}
+footer ul li a{
+  color: white;
+}
+footer ul li.title{
+  color: white;
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+}
+footer .foot-sup .float-left{
+  padding-top: 6%;
+}
+footer hr{
+  width: 125px;
+}
+footer .foot-inf{
+  color: grey;
+  font-size: 0.8rem;
+  padding-top: 40px;
+}
+/* FOOTER */
 /* MAIN */

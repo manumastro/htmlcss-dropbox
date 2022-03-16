@@ -40,3 +40,6 @@ li{
 .float-left.middle{
   margin: auto 2% auto;
 }
+.i-b{
+  display: inline-block;
+}
